@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grids Practice</title>
+</head>
+<body>
+  <div style= 
+    "display: grid; 
+    grid-template-columns: 100px 100px;">   <!--outer div me display property and number of rows and columns-->
+
+
+    <div style="background-color: lightcoral;">div1</div>
+    <div style="background-color: lightskyblue;">div2</div>
+
+  </div>
+
+  <div style= 
+    "display: grid; 
+    grid-template-columns: 100px 1fr;
+    margin-top: 30px;">   <!--outer div me display property and number of rows and columns-->
+
+
+    <div style="background-color: rgb(203, 34, 34);">div1</div>
+    <div style="background-color: rgb(4, 155, 250);">div2</div>
+    
+  </div>
+
+  <div style= 
+    "display: grid; 
+    grid-template-columns: 100px 1fr 2fr;
+    margin-top: 30px;">   <!--outer div me display property and number of rows and columns-->
+
+
+    <div style="background-color: rgb(203, 34, 34);">div1</div>
+    <div style="background-color: rgb(4, 155, 250);">div2</div>
+    <div style="background-color: rgb(4, 250, 82);">div2</div> <!--fr se jitna space hoga utna pura lelega aur page k sath resize-->
+    
+  </div>
+
+  <div style= 
+    "display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    column-gap: 20px;
+    row-gap: 20px;">   <!--outer div me display property and number of rows and columns-->
+
+
+    <div style="background-color: lightcoral; height: 200px;">div1</div>
+    <div style="background-color: lightgreen; height: 200px;">div2</div>
+    <div style="background-color: lightcoral;height: 200px;">div3</div> <!--fr se jitna space hoga utna pura lelega aur page k sath resize-->
+    <div style="background-color: lightgreen;height: 200px;">div4</div>
+    <div style="background-color: lightcoral; height: 200px;">div5</div>
+    <div style="background-color: lightgreen; height: 200px;">div6</div>
+  </div>
+
+</body>
+</html>
