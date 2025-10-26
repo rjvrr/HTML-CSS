@@ -1,5 +1,49 @@
-.searchbar{
-  border-radius: 8px;
-  border-color: grey;
-  display:block;
+.header{
+  height: 55px;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.left-section{
+  background-color: lightblue;
+  width:150px
+}
+.humburger-icon{
+  width:24px;
+}
+.youtube-icon{
+  width:100px;
+}
+
+.middle-section{
+  background-color: lightgreen;
+  flex:1;
+  margin-left: 130px;
+  margin-right: 50px;
+  max-width: 500px;
+}
+.mic-icon{
+  width:28px;
+}
+.search-icon{
+  width:25px;
+}
+
+.right-section{
+  background-color: lightpink;
+  width:250px;
+}
+.create-icon{
+  width:34px;
+}
+.group-icon{
+  width:34px;
+}
+.notif-icon{
+  width:34px;
+}
+.pfp-icon{
+  width:34px;
+  border-radius: 17px;
 }
