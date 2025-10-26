@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flex box</title>
 </head>
-<body>
+<body style="padding-bottom: 1000px;">
 
   <div style="
     display: flex;
@@ -13,6 +13,71 @@
     <div style="background-color: lightcoral;">div1</div>
     <div style="background-color: lightgreen;">div2</div>
   </div>
+
+
+  <div style="
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  height: 70px;
+  border: 1px;
+  border-style: solid;
+  border-color:grey;
+  justify-content: start;"> <!--positions all the elements at the starting-->
+
+  <div style="background-color: lightcoral; width:100px">flex1</div>
+  <div style="background-color: lightgreen; width:100px">flex2</div>
+  <div style="background-color: lightcoral; width:100px">flex3</div>
+  </div>
+
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border: 1px;
+    border-style: solid;
+    border-color:grey;
+    justify-content: space-between;"> <!--Adds equal spacing in between all the elements-->
+
+    <div style="background-color: lightcoral; width:100px">flex1</div>
+    <div style="background-color: lightgreen; width:100px">flex2</div>
+    <div style="background-color: lightcoral; width:100px">flex3</div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border: 1px;
+    border-style: solid;
+    border-color:grey;
+    justify-content: space-between;
+    align-items: start;">  <!--takes as much space as needed-->
+    
+    <div style="background-color: lightcoral; width:100px">flex1</div>
+    <div style="background-color: lightgreen; width:100px">flex2</div>
+    <div style="background-color: lightcoral; width:100px">flex3</div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border: 1px;
+    border-style: solid;
+    border-color:grey;
+    justify-content: space-between;
+    align-items: start;">  <!--takes as much space as needed SAME WITH end  AND center-->
+    
+    <div style="background-color: lightcoral; width:100px">flex1</div>
+    <div style="background-color: lightgreen; width:100px">flex2</div>
+    <div style="background-color: lightcoral; width:100px">flex3</div>
+  </div>
+
   
 </body>
 </html>
