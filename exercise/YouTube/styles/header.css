@@ -39,6 +39,7 @@
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
   background-color: rgb(236, 235, 235);
+  width: 0; /*the element will shrink when tab is minimized*/
 }
 .searchbar::placeholder{
   font-family: Arial, Helvetica, sans-serif;
@@ -46,6 +47,7 @@
 }
 .mic-icon{
   width:25px;
+  margin-top: 3px;
 }
 .search-icon{
   width:25px;
@@ -72,10 +74,12 @@
 }
 
 .right-section{
-  width:250px;
+  width:210px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;   /* prevents shrinking of items when tab is minimized*/
 }
 .create-icon{
   width:34px;
