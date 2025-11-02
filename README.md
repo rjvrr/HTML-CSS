@@ -27,8 +27,7 @@ As part of the learning process, I also created a **Mini Project — YouTube UI 
 This mini project replicates the basic layout of YouTube’s homepage using **only HTML and CSS**.
 
 ### ✨ Features
-
-- Responsive layout for different screen sizes  
+ 
 - Styled header, sidebar, and video grid  
 - Hover effects for interactivity  
 - Clean, readable code following best practices  
