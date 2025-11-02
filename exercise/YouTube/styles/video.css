@@ -2,7 +2,21 @@
       width:100%;
       border-radius: 12px;
       cursor:pointer;
-    }
+}
+.thumbnail-div{
+  position: relative;
+}
+.time{
+  position: absolute;
+  bottom:10px;
+  right:10px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px;
+  font-weight: 500;
+  border-radius: 2px;
+}
 .pfp{
   border-radius: 20px;
   width: 38px;
